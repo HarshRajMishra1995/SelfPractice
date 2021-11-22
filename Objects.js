@@ -11,8 +11,38 @@
 //     nameofcar:"mustang",
 //     place:"LA"
 // }
-// console.log(newObject.nameofcar)
+// // console.log(newObject.nameofcar)
 
-var myobj=new Object(),str='myString',rand=Math.random(),obj=new Object();
+// for(let i in newObject)
+// {
+//     console.log(i)
+// }
 
-console.log(typeof str)
+// var myobj=new Object(),str='myString',rand=Math.random(),obj=new Object();
+
+// console.log(typeof str)
+
+
+//Car--->name,model,color
+
+
+// function MyCar(name,model,color){
+//     this.name=name,
+//     this.model=model,
+//     this.color=color
+// }
+
+// var mycar=new MyCar('mustang','abc','white')
+
+// var newcar=new MyCar('safari','abc','black')
+// console.log(newcar)
+
+function loops(n)
+{
+for(let i=0;i<=n;i++)
+{
+    console.log(i);
+}
+}
+
+loops(5)
